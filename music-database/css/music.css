@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("/music-database/img/type.jpg");
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Styling for input.php*/
+
+.main-wrapper {
+  display: block;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 285px;
+}
+
+.main-wrapper h2 {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 50px;
+}
+
+.main-wrapper input {
+  background-color: darkorange;
+  border: solid 3px antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Styling for music.php*/
+
+.music-wrapper {
+  color: whitesmoke;
+  display: block;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.music-wrapper h2 {
+  color: white;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 45px 0px;
+}
+
+.music-wrapper table {
+  border: 3px solid null;
+  display: inline-block;
+  font-size: 25px;
+  margin: 15px;
+}
+
+.music-wrapper table tr th {
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+}
+
+.music-wrapper table tr td {
+  width: 400px;
+  padding: 10px;
+  background-color: black;
+}
