@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(136, 132, 132, 0);
+    background-image: url("/less-insecure/img/fade.jpg");
+}
+
+body {
+    border: solid 5px azure;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 160px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(240, 255, 240, 0.513);
+}
+
+body p {
+    color: #d4193f;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 18px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-family: "Raleway", sans-serif;
+}
+
+input[type="submit"],
+input[type="reset"],
+button[type="submit"] {
+    cursor: pointer;
+    border-radius: 25px;
+    width: 30%;
+    background-color: #87bdd8;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
