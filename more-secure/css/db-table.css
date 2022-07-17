@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(188,222,147,1) 0%, rgba(177,213,198,1) 100%);
+    padding-top: 50px;
+}
