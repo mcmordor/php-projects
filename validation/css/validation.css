@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+} 
+
+body {
+  background-color: white;
+  background-image: url("/validation/img/valid.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: fixed;
+  left: 22.5em;
+  top: 3em;
+  height: 75%;
+  width: 50%;
+  background-size: cover;
+  transform: scale(1.1); 
+}
+
+.main-wrapper {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-wrapper h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: black;
+  font-size: 40px;
+}
+
+.main-wrapper h2:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.main-wrapper input {
+  border-radius: 25px;
+  width: 100%;
+  padding: 12px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid floralwhite;
+  background-color: #fffcf0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-wrapper input[type="submit"],
+input[type="reset"] {
+  width: 30%;
+  background-color: ghostwhite;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.main-wrapper input[type="submit"]:hover,
+  input[type="reset"]:hover {
+  background-color: #f3cbbd;
+  border: 2px solid floralwhite;
+}
+
+.main-wrapper p {
+  color: black;
+  background-color: #fffcf0;
+  border-radius: 25px;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
